@@ -1,3 +1,5 @@
+import Robot from robot.py 
+
 class Componente(codice: str, nome: str, peso_kg: float):
     def __init__(self, codice: str, nome: str, peso_kg: float) -> None:
         self.codice = codice
